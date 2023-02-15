@@ -1,0 +1,15 @@
+.hero {
+  background-color: #86a315;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+.hero h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.hero p {
+  color: #fff;
+}

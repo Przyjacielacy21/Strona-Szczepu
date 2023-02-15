@@ -1,0 +1,30 @@
+.contact {
+  background: #86a315;
+  color: #fff;
+  padding: 60px 0;
+}
+  
+#contact .icon-box {
+  padding: 30px 20px;
+  transition: ease-in-out 0.3s;
+  height: 100%;
+  text-align: center;
+  background-color: #587d18;
+}
+
+#contact .icon-box i {
+  color: white;
+  font-size: 32px;
+  line-height: 1;
+  transition: ease-in-out 0.3s;
+}
+
+#contact .icon-box h3 {
+  font-weight: 700;
+  color: white;
+  margin: 10px 0 0 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 20px;
+  line-height: 26px;
+}

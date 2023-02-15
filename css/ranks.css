@@ -1,0 +1,45 @@
+.ranks{
+  background-color: #1e2122;
+  color: #cfd3d7;
+}
+
+.ranks .gz:hover{
+  color: #d6a907;
+}
+.ranks .harc:hover{
+  color: #5a6369;
+}
+.ranks .dh:hover{
+  color: #587d18;
+}
+.ranks .dsh:hover{
+  color: #225bd6;
+}
+.ranks .dw:hover {
+  color: #bd0411;
+}
+
+.ranks .gz.active{
+  background-color:#f8c409;
+  color: white;
+}
+  
+.ranks .harc.active{
+  background-color: #717d85;
+  color: white;
+}
+  
+.ranks .dh.active{
+  background-color: #86a315;
+  color: white;
+}
+  
+.ranks .dsh.active{
+  background-color: #194093;
+  color: white;
+}
+  
+.ranks .dw.active{
+  background-color: #e30613;
+  color: white;
+}

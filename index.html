@@ -1,14 +1,521 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/stylesheet.css">
-    <link rel="icon" href="images/plakietka_szczepu.png">
-    <title>Strona Szczepu ZHP Józefów</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+
+  <title>Szczep ZHP Józefów</title>
+  <meta name="description" content="Strona internetowa Szczepu ZHP Józefów. Dowiedz się o działających jednostkach, naszym bohaterze, pobierz karty na stopnie czy też skontaktuj się z nami.">
+  <meta name="keywords" content="ZHP, Szczep, Józefów, 3GZ, 5GZ, 3DH, 5DH, 35DHS, 35JDW, Robert George Hamilton">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  
+  <link href="libs/aos/aos.css" rel="stylesheet">
+  <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="libs/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Strona w Renowacji</h1>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"> </h1>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#start">Start</a></li>
+          <li><a class="nav-link scrollto" href="#about">O nas</a></li>
+          <li><a class="nav-link scrollto" href="#units">Drużyny</a></li>
+          <li><a class="nav-link scrollto" href="#hero">Bohater</a></li>
+          <li><a class="nav-link scrollto " href="#ranks">Karty na stopnie</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Kontakt</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- ======= Start Section ======= -->
+  <section id="start" class="d-flex align-items-center justify-content-center">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-xl-6 col-lg-8">
+          <h1>Przygoda zaczyna się z nami<span>!</span></h1>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>O nas</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="img/Szczep/szczep.jpg" class="img-fluid rounded" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <p>
+              Szczep Józefów to zuchy, harcerze i wędrownicy, którzy wszyscy razem już od ponad 30 lat tworzą
+              niesamowite
+              przygody oraz historie, o których nie da się zapomnieć. Jeździmy na obozy, biwakujemy, spotykamy się na
+              zbiórkach, a w tym wszystkim pamiętamy o tym aby zawsze służyć pomocą. Przyjaźnie, które nawiązujemy
+              między
+              sobą, zostają z nami na długo i wszyscy dobrze wiemy, że harcerzem jest się przez całe życie.
+            </p>
+
+            <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
+              <div class="col-4">
+                <a href="https://www.facebook.com/zhp.jozefow" target="_blank" rel="noopener noreferrer">
+                  <div class="icon-box icon-box-fb rounded">
+                    <i class="bi bi-facebook"></i>
+                    <h3 class=" d-none d-md-block">Facebook</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="col-4">
+                <a href="https://www.instagram.com/szczep_jozefow" target="_blank" rel="noopener noreferrer">
+                  <div class="icon-box icon-box-ig rounded">
+                    <i class="bi bi-instagram"></i>
+                    <h3 class=" d-none d-md-block">Instagram</h3>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= Units Section ======= -->
+    <section id="units" class="services units">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title section-dark">
+          <h2>Drużyny</h2>
+        </div>
+
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link fw-bold gz active" id="pills-3gz-tab" data-bs-toggle="pill"
+              data-bs-target="#pills-3gz" type="button" role="tab" aria-controls="pills-3gz" aria-selected="true">3GZ
+              "Zawiszątka"</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link fw-bold gz" id="pills-5gz-tab" data-bs-toggle="pill" data-bs-target="#pills-5gz"
+              type="button" role="tab" aria-controls="pills-5gz" aria-selected="false">5GZ "Leśne Ludki"</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link fw-bold dh" id="pills-3dh-tab" data-bs-toggle="pill" data-bs-target="#pills-3dh"
+              type="button" role="tab" aria-controls="pills-3dh" aria-selected="false">3DH "Zawiszacy"</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link fw-bold dh" id="pills-5dh-tab" data-bs-toggle="pill" data-bs-target="#pills-5dh"
+              type="button" role="tab" aria-controls="pills-5dh" aria-selected="false">5DH "Leśni"</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link fw-bold dsh" id="pills-35dsh-tab" data-bs-toggle="pill"
+              data-bs-target="#pills-35dsh" type="button" role="tab" aria-controls="pills-35dsh"
+              aria-selected="false">35DHS</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link fw-bold dw" id="pills-35jdw-tab" data-bs-toggle="pill" data-bs-target="#pills-35jdw"
+              type="button" role="tab" aria-controls="pills-35jdw" aria-selected="false">35JDW "Legendarni"</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-3gz" role="tabpanel" aria-labelledby="pills-3gz-tab"
+            tabindex="0">
+            <div><img src="img/Szczep/3gz.jpg" id="img-3gz" class="img-fluid float-start rounded m-3">
+              <p class="d-float m-3">3 Gromada Zuchowa „Zawiszątka” funkcjonuje na terenie Józefowa i zrzesza dzieci
+                uczęszczające do 1-3 klasy. Po osiągnięciu odpowiedniego wieku członkowie gromady przekazywani są do
+                drużyny harcerskiej. Drużynową gromady jest pwd. Edyta Bąk. Zbiórki zuchów odbywają się w każdy czwartek
+                w godzinach 18:30 - 20:00 w harcówce przy kościele Jana Chrzciciela w Michalinie.</p>              
+                <div class="row align-items-center gy-3 mt-3">
+                  <div class="col-sm-6 d-flex justify-content-center"><span class="fw-bold">Kontakt do pwd. Edyty Bąk: 533 839 996</span></div>
+                  <div class="col-sm-6 d-flex justify-content-center"><a href="https://www.facebook.com/profile.php?id=100064582216796" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a></div>
+                </div>
+              
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-5gz" role="tabpanel" aria-labelledby="pills-5gz-tab" tabindex="0"><img
+              src="img/Szczep/5gz.jpg" id="img-5gz" class="img-fluid float-start rounded m-3">
+            <p class="d-float">Piąta gromada zuchowa „Leśne ludki” działa w Szkole Podstawowej nr 2 im. Romualda
+              Traugutta w Józefowie. Na zbiórki przychodzą dzieci uczęszczające do 1-3 klasy. Gromada jest prowadzona
+              przez dh. Julię Grodzką. Zbiórki odbywają się w czwartki od 17:00 do 18:30. Gromada może pochwalić się
+              długą tradycją, bogatą historią i doświadczoną kadrą.</p>
+              <div class="row align-items-center gy-3 mt-3">
+                <div class="col-sm-6 d-flex justify-content-center"><span class="fw-bold">Kontakt do dh. Julki: 600 218 616</span></div>
+                <div class="col-sm-6 d-flex justify-content-center"><a href="https://www.facebook.com/profile.php?id=100067463509112" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a></div>
+              </div>
+          </div>
+          <div class="tab-pane fade" id="pills-3dh" role="tabpanel" aria-labelledby="pills-3dh-tab" tabindex="0"><img
+              src="img/Szczep/3dh.jpg" id="img-3dh" class="img-fluid float-start rounded m-3">
+            <p class="d-float">3 Drużyna Harcerska "Zawiszacy" funkcjonuje na terenie Józefowa już od ponad 40 lat. Mało
+              kto wie, że jest ona jedną z najstarszych organizacji harcerskich działających pod skrzydłami Hufca ZHP
+              Otwock. Obecną drużynę, prowadzoną przez dh. Karolinę Szczepaniak tworzy wyjątkowa społeczność osób, które
+              się nawzajem wspierają i są dla siebie oparciem nie tylko na zbiórkach. Zawiszacy spotykają się w każdy
+              piątek w godzinach 18:00 - 20:00 w harcówce przy kościele pw. Jana Chrzciciela w Józefowie, uczestniczą w
+              szczepowych, hufcowych, a także miejskich wydarzeniach. Co więcej, z roku na rok biorą udział w obozach,
+              które okazują się być wyjątkowymi momentami w ich życiu.</p>
+              <div class="row align-items-center gy-3 mt-3">
+                <div class="col-sm-6 d-flex justify-content-center"><span class="fw-bold">Kontakt do dh. Karoliny: 505 956 823</span></div>
+                <div class="col-sm-6 d-flex justify-content-center"><a href="https://www.facebook.com/3dhzawiszacy" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a></div>
+              </div>
+          </div>
+          <div class="tab-pane fade" id="pills-5dh" role="tabpanel" aria-labelledby="pills-5dh-tab" tabindex="0"><img
+              src="img/Szczep/5dh.jpg" id="img-5dh" class="img-fluid float-start rounded m-3">
+            <p class="d-float">5 Drużyna Harcerska „Leśni” działa na terenach Michalina. Zbiórki przez większą część
+              roku odbywają się w lesie obok szkoły podstawowej nr 2. Aktualnie drużynową jest dh. Ola Papis. Drużyna
+              nosi zielone barwy, a jej obrzędowość skupia się na aspektach leśnych. Drużyna posiada także swój miecz,
+              wykuty przez pierwszego drużynowego oraz ulepszany z każdym kolejnym. Zbiórki odbywają się w piątki o
+              godzinach 18:00 - 20:00 przy szkole podstawowej nr 2 w Józefowie. Harcerze na spotkaniach uczą się nowych
+              umiejętności z dziedzin terenoznawsta, przyrody, historii, i wielu innych oraz działają w 3 zastępach:
+              Sarny, Wilki oraz Salamandry plamiste.</p>
+              <div class="row align-items-center gy-3 mt-3">
+                <div class="col-sm-6 d-flex justify-content-center"><span class="fw-bold">Kontakt do dh. Oli: 798 775 250</span></div>
+                <div class="col-sm-6 d-flex justify-content-center"><a href="https://www.facebook.com/5-Dru%C5%BCyna-Harcerska-Le%C5%9Bni-102831378996912/" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a></div>
+              </div>
+          </div>
+          <div class="tab-pane fade" id="pills-35dsh" role="tabpanel" aria-labelledby="pills-35dsh-tab" tabindex="0">
+            <img src="img/Szczep/35dsh.png" id="img-5dh" class="img-fluid float-start rounded m-3">
+            <p class="d-float">35 Drużyna Harcerzy Starszych to wszyscy harcerze z Józefowa, którzy uczęszczają od 7
+              klasy podstawówki do 1 klasy liceum. Zbiórki prowadzimy w salce parafialnej przy kościele pw. Matki Bożej
+              Częstochowskiej, a gdy jest ciepło wybieramy się do lasku przy Szkole Podstawowej nr 2. Aktualnie
+              drużynową jest dh. Olga Pacuła. Historia drużyny jest dość krótka, ponieważ istnieje ona od ledwo 5 lat.
+              Została ona stworzona przez złączenie dwóch poprzedzających ją drużyn 3 DHS "Zawiszacy" i 5 DHS "Leśni".
+              Nasze barwy są czarne z żółtym obramowaniem, symbolizujące dawne chusty 3 i 5. Zbiórki odbywają się w
+              piątki od 18 do 20 a harcerze na nich nie tylko rozwijają swoje pasje i umiejętności ale także jest czas
+              na rozrywkę i służbę. Uczęszczamy w wielu akcjach organizowanych przez szczep czy hufiec ale także akcjach
+              patriotycznych na których godnie się reprezentujemy.</p>
+              <div class="row align-items-center gy-3 mt-3">
+                <div class="col-sm-6 d-flex justify-content-center"><span class="fw-bold">Kontakt do dh. Olgi: 694 353 886</span></div>
+                <div class="col-sm-6 d-flex justify-content-center"><a href="https://www.facebook.com/35DHS" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a></div>
+              </div>
+          </div>
+          <div class="tab-pane fade" id="pills-35jdw" role="tabpanel" aria-labelledby="pills-35jdw-tab" tabindex="0">
+            <img src="img/Szczep/35jdw.jpg" id="img-5dh" class="img-fluid float-start rounded m-3">
+            <p class="d-float">35 Józefowska Drużyna Wędrownicza powstała w 2012 roku, z inicjatywy Jana Kostrzewy.
+              Pierwsi członkowie założyciele przyjęli idee "Albo jesteśmy pierwsi, albo ostatni" i wszystko, co drużyna
+              będzie robić ma mieć charakter działań "epickich", które na trwale zapaść mają w historii drużyny,
+              szczepu, czy hufca Otwock. Stąd też przydomek drużyny "Legendarni". Ważna jest jedna z tradycji, według
+              której każdy drużynowy musi zaplanować „legendarną” akcję drużyny, dzięki temu drużyna wzięła udział w
+              kursie spadochronowym, wyjechała na rajd do Irlandii i Norwegii czy wzięła udział w obozie osadzonym w
+              świecie Wiedźmina „Turniej w Tussaint”, na który uczestnicy przyjechali we własnych strojach i z replikami
+              broni. Dzisiaj drużynową jest pwd. Dominika Błażejewicz, dzięki której część środowiska leci na światowe
+              Jamboree 2023 do Korei Południowej!</p>
+              <div class="row align-items-center gy-3 mt-3">
+                <div class="col-sm-12 d-flex justify-content-center"><span class="fw-bold">Kontakt do dh. Dominiki: 730 752 698</span></div>
+              </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- TODO - poprawić text-flow? -->
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="hero">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="section-title">
+          <h2>Bohater</h2>
+        </div>
+
+        <div>
+          <img src="img/Szczep/hamilton_oryg.jpg" class="img-fluid float-start m-3">
+          <p>Bohaterem naszego szczepu jest por. Robert George Hamilton. Jest pilotem pochodzącym z południowej Afryki.
+            Południowoafrykańska powietrzna flota razem z Brytyjczykami, Kanadyjczykami i Amerykanami brała udział w
+            lotach
+            nad Warszawą w sierpniu 1944 roku dokonując zrzutów broni, amunicji, żywności i środków opatrunkowych dla
+            walczących przeciwko Niemcom powstańców. W zrzutach brali udział również Rosjanie, ale dopiero w schyłkowej
+            fazie
+            Powstania, kiedy jego losy były już przesądzone. Zrzuty nad Powstaniem Warszawskim były najtrudniejszą
+            operacją powietrzną w historii wojskowości.</p>
+
+          <p>Porucznik Hamilton był drugim pilotem samolotu „Liberator B-24” o numerze KG-939 „A”, który w nocy
+            z 14 na 15 sierpnia 1944 roku wykonywał zrzuty nad Warszawą. Należeli do 31 dywizjonu bombowego 2 skrzydła
+            Sił Powietrznych Południowej Afryki (SAAF – South African Air Forces). Dywizjon ten był dywizjonem bombowców
+            a
+            do jego zadań należało głownie bombardowanie obiektów nieprzyjaciela. Ze względu na dużą ładowność ich
+            samolotów (bomby sporo ważą) byli wykorzystywani również do wykonywania zrzutów.</p>
+
+          <p>Plakietka naszego szczepu wzoruje się na emblemacie 31 dywizjonu SAAF z czasów II wojny światowej.
+            Symbolika plakietki jest bardzo bogata. Na pierwszym planie widać sowę, która jest ptakiem polującym w nocy.
+            Tak samo często działały bombowce - w dzień łatwiej by było je namierzyć. Sowa trzyma w szponach bombę co
+            jest bezpośrednim odniesieniem do rodzaju zadań, jakie ci piloci wykonywali (bombardowania). Napis na bombie
+            to skrót od angielskiego South African Air Forces, czyli Siły Powietrzne Południowej Afryki.
+            Sowa jest przedstawiona na tle czarnego nocnego nieba, na którym widać również fragment księżyca. Sowę
+            próbują namierzyć białe reflektory obrony przeciwlotniczej. Reflektory zamiatały niebo białymi smugami
+            światła próbując namierzyć lecący bombowiec. Samolot w taki sposób „złapany” był łatwym celem dla działek
+            przeciwlotniczych lub myśliwców walczących przeciwko bombowcom.
+            Nad sową są dwie kości do gry. Symbolizują los, którzy miał sprzyjać lotnikom w czasie ich misji. Ścianki
+            kostek z widocznymi oczkami 3 i 1 nawiązują do numeru dywizjonu.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= Ranks Section ======= -->
+    <section id="ranks" class="ranks">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title section-dark">
+          <h2>Stopnie</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-3">
+            <ul class="nav nav-pills flex-xl-column mb-3" id="pills-tab2" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link fw-bold gz active" id="pills-gz-ranks-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-gz-ranks" type="button" role="tab" aria-controls="pills-gz-ranks"
+                  aria-selected="true">Gwiazdki Zuchowe</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link fw-bold harc" id="pills-harc-ranks-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-harc-ranks" type="button" role="tab" aria-controls="pills-harc-ranks"
+                  aria-selected="true">Próba Harcerska</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link fw-bold dh" id="pills-dh-ranks-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-dh-ranks" type="button" role="tab" aria-controls="pills-dh-ranks"
+                  aria-selected="false">Stopnie Harcerskie</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link fw-bold dsh" id="pills-dsk-ranks-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-dsh-ranks" type="button" role="tab" aria-controls="pills-dsh-ranks"
+                  aria-selected="false">Stopnie Starszoharcerskie</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link fw-bold dw" id="pills-dw-ranks-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-dw-ranks" type="button" role="tab" aria-controls="pills-dw-ranks"
+                  aria-selected="false">Stopnie Wędrownicze</button>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-xl-9">
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-gz-ranks" role="tabpanel"
+                aria-labelledby="pills-gz-ranks-tab" tabindex="0">
+
+                <div class="row row-cols-3">
+                  <div>
+                    <a href="files/ksiazeczka-zuchowa_Ochoczy-2023-druk.pdf" target="_blank" rel="noopener noreferrer"><img class="img-fluid"
+                        src="img/Stopnie/z1.png" alt=""></a>
+                  </div>
+
+                  <div>
+                    <a href="files/ksiazeczka-zuchowa_Sprawny-2023-druk.pdf" target="_blank" rel="noopener noreferrer"><img class="img-fluid"
+                        src="img/Stopnie/z2.png" alt=""></a>
+                  </div>
+
+                  <div>
+                    <a href="files/ksiazeczka-zuchowa_Zaradny-2023-druk.pdf" target="_blank" rel="noopener noreferrer"><img class="img-fluid"
+                        src="img/Stopnie/z3.png" alt=""></a>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade" id="pills-harc-ranks" role="tabpanel" aria-labelledby="pills-harc-ranks-tab"
+                  tabindex="0">
+                  <div class="row row-cols-4">
+
+                    <div>
+                      <a href="files/stara_karta_proby_harcerki_harcerza.pdf" target="_blank" rel="noopener noreferrer"><img class="img-fluid"
+                          src="img/Icons/harcerze_mono.png" alt=""></a>
+                    </div>
+
+                    <div>
+                      <a href="files/proba-h-wersja-h.pdf" target="_blank" rel="noopener noreferrer"><img class="img-fluid"
+                          src="img/Icons/harcerze.png" alt=""></a>
+                    </div>
+
+                    <div>
+                      <a href="files/proba-h-wersja-sth.pdf" target="_blank" rel="noopener noreferrer"><img class="img-fluid"
+                          src="img/Icons/harcerzestarsi.png" alt=""></a>
+                    </div>
+
+                    <div>
+                      <a href="files/proba-h-wersja-w.pdf" target="_blank" rel="noopener noreferrer"><img class="img-fluid"
+                          src="img/Icons/wedrownicy.png" alt=""></a>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade" id="pills-dh-ranks" role="tabpanel" aria-labelledby="pills-dh-ranks-tab"
+                    tabindex="0">
+                    <div class="row row-cols-4">
+                      <div>
+                        <a href="files/RPMPryzmat-Ksiazeczka-Stopnia-Mlodzik-2021-oszcz.pdf" target="_blank" rel="noopener noreferrer"><img
+                            class="img-fluid" src="img/Stopnie/h1m.png" alt=""></a>
+                      </div>
+
+                      <div>
+                        <a href="files/RPMPryzmat-Ksiazeczka-Stopnia-Ochotniczka-2021-oszcz.pdf" target="_blank" rel="noopener noreferrer"><img
+                            class="img-fluid" src="img/Stopnie/h1k.png" alt=""></a>
+                      </div>
+
+                      <div>
+                        <a href="files/RPMPryzmat-Ksiazeczka-Stopnia-Wywiadowca-2021-oszcz.pdf" target="_blank" rel="noopener noreferrer"><img
+                            class="img-fluid" src="img/Stopnie/h2m.png" alt=""></a>
+                      </div>
+
+                      <div>
+                        <a href="files/RPMPryzmat-Ksiazeczka-Stopnia-Tropicielka-2021-oszcz.pdf" target="_blank" rel="noopener noreferrer"><img
+                            class="img-fluid" src="img/Stopnie/h2k.png" alt=""></a>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="tab-content" id="pills-tabContent"></div>
+                  <div class="tab-pane fade" id="pills-dsh-ranks" role="tabpanel" aria-labelledby="pills-dsh-ranks-tab"
+                    tabindex="0">
+                    <div class="row row-cols-4">
+                      <div>
+                        <a href="files/karta-stopni_Odkrywca_2021_oszcz.pdf" target="_blank" rel="noopener noreferrer"><img class="img-fluid"
+                            src="img/Stopnie/sh1m.png" alt=""></a>
+                      </div>
+
+                      <div>
+                        <a href="files/karta-stopni_Pionierka_2021_oszcz.pdf" target="_blank" rel="noopener noreferrer"><img class="img-fluid"
+                            src="img/Stopnie/sh1k.png" alt=""></a>
+                      </div>
+
+                      <div>
+                        <a href="files/karta-stopni_Cwik_2021_oszcz.pdf" target="_blank" rel="noopener noreferrer"><img class="img-fluid"
+                            src="img/Stopnie/sh2m.png" alt=""></a>
+                      </div>
+
+                      <div>
+                        <a href="files/karta-stopni_Samarytanka_2021_oszcz.pdf" target="_blank" rel="noopener noreferrer"><img class="img-fluid"
+                            src="img/Stopnie/sh2k.png" alt=""></a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-content" id="pills-tabContent"></div>
+                <div class="tab-pane fade" id="pills-dw-ranks" role="tabpanel" aria-labelledby="pills-dw-ranks-tab"
+                  tabindex="0">
+                  <div class="row row-cols-4">
+                    <div>
+                      <a href="files/karta-stopni_HOrli_2021_oszcz.pdf" target="_blank" rel="noopener noreferrer"><img class="img-fluid"
+                          src="img/Stopnie/w1m.png" alt=""></a>
+                    </div>
+
+                    <div>
+                      <a href="files/karta-stopni_HOrla_2021_oszcz.pdf" target="_blank" rel="noopener noreferrer"><img class="img-fluid"
+                          src="img/Stopnie/w1k.png" alt=""></a>
+                    </div>
+
+                    <div>
+                      <a href="files/karta-stopni_HarcerzR_2021_oszcz.pdf" target="_blank" rel="noopener noreferrer"><img class="img-fluid"
+                          src="img/Stopnie/w2m.png" alt=""></a>
+                    </div>
+
+                    <div>
+                      <a href="files/karta-stopni_HarcerkaR_2021_oszcz.pdf" target="_blank" rel="noopener noreferrer"><img class="img-fluid"
+                          src="img/Stopnie/w2k.png" alt=""></a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Kontakt</h2>
+          <p>Masz jakieś pytania?</p>
+        </div>
+
+        <h1 class="display-6">Komendant Szczepu pwd. Jakub Nowak</h1>
+
+        <div class="row mt-5 justify-content-evenly" data-aos="zoom-in" data-aos-delay="250">
+          <div class="col-sm col-lg-4 gy-3">
+            <div class="icon-box rounded">
+              <i class="bi bi-telephone"></i>
+              <h3>572 544 401</h3>
+            </div>
+          </div>
+
+          <div class="col-sm col-lg-4 gy-3">
+            <div class="icon-box rounded">
+              <i class="bi bi-envelope-at"></i>
+              <h3>jakub.nowak@zhp.net.pl</h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+        <div class="container">
+          <div class="row justify-content-evenly align-items-center gx-5 pt-3">
+            <div class="col-sm-4 m-3 m-sm-0 d-flex justify-content-center">
+              <a href="http://www.zhp.michalin.pl/" target="_blank" rel="noopener noreferrer"><img src="img/Logos/logo_szczepu.png" alt="Archiwalna strona naszego szczepu" style="width:160px"></a>
+            </div>
+
+            <div class="col-sm-4 m-3 m-sm-0 d-flex justify-content-center">
+              <a href="http://www.otwock.zhp.pl/" target="_blank" rel="noopener noreferrer"><img src="img/Logos/logo_hufca_otwock.png" alt="Strona naszego hufca"></a>
+            </div>
+
+            <div class="col-sm-4 m-3 m-sm-0 d-flex justify-content-center">
+              <a href="https://zhp.pl/" target="_blank" rel="noopener noreferrer"><img src="img/Logos/logo_zhp.svg" alt="Oficjalna strona ZHP"></a>              
+            </div>
+          </div>
+
+          <div class="copyright">
+            &copy; 2023
+          </div>
+        </div>
+  </footer>
+  
+  <script src="libs/aos/aos.js"></script>
+  <script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
