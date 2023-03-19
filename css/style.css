@@ -245,6 +245,17 @@ h6 {
   position: relative;
 }
 
+/* Detecting support for webP image format */
+@supports (background: url("../img/Szczep/start.webp") top center){
+  #start {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/Szczep/start.webp") top center;
+    background-size: cover;
+    position: relative;
+  }
+}
+
 #start:before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
