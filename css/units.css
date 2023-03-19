@@ -14,26 +14,6 @@
   transition: ease-in-out 0.3s;
 }
 
-.units #img-3gz {
-  width: 360px;
-}
-
-.units #img-5gz {
-  width: 526px;
-}
-
-.units #img-3dh {
-  width: 526px;
-}
-
-.units #img-5dh {
-  width: 512px;
-}
-
-.units #img-35dsh {
-  width: 468px;
-}
-
 .units .gz:hover{
   color: #d6a907;
 }
