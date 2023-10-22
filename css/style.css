@@ -425,7 +425,11 @@ section {
   font-size: 14px;
 }
 
-#footer .copyright {
+#footer .technicalContact {
   text-align: center;
   padding-top: 30px;
+}
+
+#footer .technicalContact a:hover{
+  text-decoration: underline;
 }

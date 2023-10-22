@@ -4,6 +4,14 @@
   padding: 60px 0;
 }
   
+.contact a{
+  color: #fff;
+}
+
+.contact a:hover{
+  text-decoration: underline;
+}
+
 #contact .icon-box {
   padding: 30px 20px;
   transition: ease-in-out 0.3s;
